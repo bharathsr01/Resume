@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bharath S R | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bharath S R</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div id="resume-info"></div>
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>1) Todo Summary Assistant</h3>
+    <ul>
+      <li>AI-powered to-do summarizer using OpenAI's GPT API.</li>
+      <li>Built with React.js, Node.js, Express, and OpenAI integration.</li>
+      <li>Pushes summarized tasks to Slack for team collaboration.</li>
+      <li><a href="https://github.com/bharathsr01/todo-summary-assistant" target="_blank">View on GitHub</a></li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>2) My Profile Website</h3>
+    <ul>
+      <li>Personal portfolio built using HTML, CSS, and JavaScript.</li>
+      <li>Showcases bio, education, skills, and GitHub projects.</li>
+      <li>Features responsive design and dynamic content rendering.</li>
+      <li><a href="https://github.com/bharathsr01/Myprofile" target="_blank">View on GitHub</a></li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>3) Homely Hub – Hotel Booking System</h3>
+    <ul>
+      <li>Dynamic full stack web application for hotel booking.</li>
+      <li><strong>Frontend</strong>: HTML, CSS, JavaScript.</li>
+        <li><strong>Backend</strong>: Java with MySQL.</li>
+      <li>Includes features like user registration, booking, and admin dashboard.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>4) Air Quality Monitoring</h3>
+    <ul>
+      <li>IoT-based project to measure and monitor air pollutants in real-time.</li>
+      <li>Built using Embedded C and Python with sensor data collection.</li>
+      <li>Helps analyze air pollution exposure for health and research.</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>5) Data Transmission using Li-Fi</h3>
+    <ul>
+      <li>Implemented Li-Fi technology for wireless data transfer using visible light.</li>
+      <li>Developed using Embedded C and Python for microcontroller interfacing.</li>
+      <li>Focused on data transmission through VLC (Visible Light Communication).</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h3>6) Street Lighting System Based on Vehicle Movement</h3>
+    <ul>
+      <li>Smart street lighting that activates based on vehicle presence.</li>
+      <li>Reduces energy consumption using sensors and Embedded C.</li>
+      <li>Lights remain dim in absence of vehicles and brighten upon detection.</li>
+    </ul>
+  </div>
+  </section>
+
+  <section id="summary-tool">
+  <h2>Try Todo Summary</h2>
+  <form id="todoForm">
+    <textarea id="todosInput" placeholder="Enter your todos, separated by commas" required></textarea>
+    <button type="submit">Generate Summary</button>
+  </form>
+  <div id="summaryResult"></div>
+</section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+<textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bharath S R</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
